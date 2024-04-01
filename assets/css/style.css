@@ -611,29 +611,6 @@ footer a {
 
 }
 
-@media(max-width:768px) {
-  .hamburguesas {
-    position: relative;
-    top: 75px;
-    font-size: 24px;
-    font-weight: 800;
-  }
-
-  .catalogo-titulos {
-    display: block;
-    text-align: center;
-    margin-top: -20px;
-  }
-
-  .catalogo-titulos h1 {
-    margin-right: 102px;
-
-  }
-
-  .catalogo-titulos h2 {
-    margin-right: 20px;
-  }
-}
 
 
 @media (max-width:430px) {
@@ -674,6 +651,27 @@ footer a {
 
 
 @media (max-width:768px) {
+  .hamburguesas {
+    position: relative;
+    top: 75px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .catalogo-titulos {
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+  }
+
+  .catalogo-titulos h1 {
+    margin-right: 102px;
+
+  }
+
+  .catalogo-titulos h2 {
+    margin-right: 20px;
+  }
   .burguers {
     margin-top: -40px;
 
@@ -695,7 +693,13 @@ footer a {
     justify-content: center;
 
   }
+.bacon-cheddar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+}
   .texana {
 
     width: 330px;
@@ -720,13 +724,14 @@ footer a {
   }
 
   .barbacue {
-
+height: 300px;
     width: 330px;
     border: solid rgb(255, 0, 0) 3px;
 
   }
 
   .americana {
+    height: 300px;
     width: 330px;
     border: solid rgb(255, 0, 0) 3px;
 
@@ -746,7 +751,42 @@ footer a {
   .americana-infos {
     margin-top: 45px;
   }
+.bacon-cheep{
+  height: 300px;
+  width: 330px;
+  border: solid rgb(255, 0, 0) 3px;
+
+
 }
+.cheddar{
+  height: 300px;
+  width: 330px;
+  border: solid rgb(255, 0, 0) 3px;
+
+
+}
+.cheddar-infos{
+  margin-top: 45px;
+}
+.bacon-infos a {
+  position: relative;
+  left: 70px;
+}
+
+.cheddar-infos a {
+  position: relative;
+  left: 70px;
+}
+
+
+}
+
+
+
+
+
+
+
 
 @media (min-width:768px) {
   .burguers {
@@ -811,7 +851,44 @@ footer a {
     position: relative;
     left: 80px;
   }
+  .bacon-cheep {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 363px;
+    border: solid rgb(255, 0, 0) 3px;
+    margin-top: 22px;
+
+  }
+  .cheddar {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 363px;
+    border: solid rgb(255, 0, 0) 3px;
+    margin-top: 22px;
+
+  }
+  .barbacue-infos a {
+    display: block;
+    position: relative;
+    left: 80px;
+  }
+
+  .bacon-infos a {
+    display: block;
+    position: relative;
+    left: 80px;
+  }
+
+  .cheddar-infos a {
+    display: block;
+    position: relative;
+    left: 80px;
+  }
+
 }
+
 
 
 
@@ -889,6 +966,28 @@ footer a {
   border: solid black 3px;
   background-color: yellow;
 }
+.bacon-cheddar a {
+  display: block;
+
+  width: 200px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 650;
+  border: solid black 3px;
+  background-color: yellow;
+}
+
+.bacon-cheddar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+
+}
+
 /* catalogo-fin */
 
 /* promos */
