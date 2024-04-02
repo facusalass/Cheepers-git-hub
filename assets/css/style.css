@@ -988,6 +988,71 @@ height: 300px;
 
 }
 
+
+.pizzas-para-acompañar{
+display: flex;
+justify-content: space-around
+
+}
+.pizzas h2{
+  font-weight: 600;
+font-family: sans-serif;
+color: black;
+position: relative;
+left: 125px;
+}
+.para-acompañar h2{
+  font-weight: 600;
+  font-family: sans-serif;
+  color: black;  
+  position: relative;
+  right: 97px;
+}
+.fugazzeta{
+height: 290px;
+width: 360px;
+margin-left: 50px;
+border: solid rgb(255, 0, 0) 3px;
+}
+.fugazzeta-precio{
+margin-left: 140px;
+color: black;
+font-weight: 600;
+font-family: sans-serif;
+font-size: 22px;
+margin-top: 5px;
+}
+.especial{
+  height: 300px;
+  width: 360px;
+  margin-left: 50px;
+  border: solid rgb(255, 0, 0) 3px;
+}
+.especial-precio{
+  margin-left: 150px;
+  color: rgb(247, 103, 8);
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 22px;
+  margin-top: 5px;
+  }
+
+  .muzza{
+    height: 290px;
+    width: 360px;
+    margin-left: 50px;
+    border: solid rgb(255, 0, 0) 3px;
+
+  }
+.muzza-precio{
+  margin-left: 150px;
+  color:black;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-size: 22px;
+  margin-top: 5px;
+
+}
 /* catalogo-fin */
 
 /* promos */
