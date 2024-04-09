@@ -442,12 +442,7 @@ body {
   letter-spacing: 2px;
 }
 
-.volver-inicio {
-  font-family: 'Oswald', sans-serif;
-  font-size: 22px;
-  padding-left: 35px;
-  margin-top: -30px;
-}
+
 
 
 
@@ -492,6 +487,7 @@ footer a {
 
 /* Catalogo */
 
+
 .header-catalogo {
   height: 10vw;
   background-image: url(/assets/multimedia/logotipo.jpg);
@@ -513,16 +509,34 @@ footer a {
   margin: 0;
 }
 
+.siguiente-pagina{
+  display: flex;
+  justify-content: end;
+
+}
 
 .volver-inicio {
   font-family: 'Oswald', sans-serif;
   font-size: 22px;
-  padding-left: 25px;
-  margin-top: -30px;
+margin-top: -32px;
+margin-left: 25px;
 }
+.ir-promo-logo{
 
+text-decoration: none;
+margin-top: -41px;
+}
+.ir-promo{
+
+
+font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+margin-top: -50px;
+margin-right: 2px;
+}
 .catalogo i {
-  font-size: 23px;
+
+  font-size: 21px;
   color: black;
 }
 
@@ -1489,6 +1503,16 @@ margin-top: 50px;
   background-repeat: no-repeat;
   margin: 0;
 }
+.ir-sobrenosotros{
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+margin-top: -50px;
+margin-right: 2px;
+
+}
+.ir-sobrenosotros-logo{
+  margin-top: -41px;
+}
 
 .promos a {
   text-decoration: none;
@@ -1496,7 +1520,7 @@ margin-top: 50px;
 
 .promos i {
   color: black;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .promos p {
@@ -1679,6 +1703,17 @@ font-size: 21px;
 .sobrenosotros-volver p{
 font-size: 22px;
 }
+.ir-contacto{
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+margin-top: -50px;
+margin-right: 2px;
+
+}
+.ir-contacto-logo{
+  margin-top: -41px;
+}
+
 
 .sobrenosotros-titulo{
 display: flex;
@@ -1700,9 +1735,9 @@ font-size: 45px;
   .logo-cheepers{
 display: flex;
 margin-left: auto;
-margin-right: 10px;
-margin-top: -140px;
-  height: 130px;
+margin-right: 2px;
+margin-top: -130px;
+  height: 140px;
   width: 150px;
   }
   .cheepers-historia p{
@@ -1757,6 +1792,16 @@ color: black;
 .contacto-volver p{
 font-size: 22px;
 
+}
+.ir-inicio{
+  font-family: 'Oswald', sans-serif;
+  font-size: 21px;
+margin-top: -49px;
+margin-right: 2px;
+
+}
+.ir-inicio-logo{
+  margin-top: -42px;
 }
 
 .contacto-titulos h1{
