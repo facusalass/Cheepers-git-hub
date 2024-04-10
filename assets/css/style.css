@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'lemon_mocktail';
-  src: url(/fonts/lemon\ mocktail\ .ttf);
+  src: url(../../fonts/Lemon\ Mocktail\ .ttf );
 }
 
 body {
-  background-image: url(/assets/multimedia/maderaclara.jpg);
+  background-image: url(../multimedia/maderaclara.jpg);
   background-size: cover;
   margin: 0;
 }
@@ -425,7 +425,7 @@ body {
 .header-catalogo {
   height: 115px;
 
-  background-image: url(/assets/multimedia/logotipo.jpg);
+  background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -490,7 +490,7 @@ footer a {
 
 .header-catalogo {
   height: 10vw;
-  background-image: url(/assets/multimedia/logotipo.jpg);
+  background-image: url(../multimedia/logotipo.jpg);
   height: 10vw;
   width: 100%;
   border: solid 3px black;
@@ -503,7 +503,7 @@ footer a {
 }
 
 .body-catalogo {
-  background-image: url(/assets/multimedia/maderablanca.jpg);
+  background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -1481,7 +1481,7 @@ margin-top: 50px;
 /* promos */
 .header-promos {
   height: 8vw;
-  background-image: url(/assets/multimedia/logotipo.jpg);
+  background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -1498,7 +1498,7 @@ margin-top: 50px;
 }
 
 .body-promos {
-  background-image: url(/assets/multimedia/maderablanca.jpg);
+  background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -1673,7 +1673,7 @@ color: chocolate;
 
 .header-sobrenosotros{
   height: 8vw;
-  background-image: url(/assets/multimedia/logotipo.jpg);
+  background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -1690,7 +1690,7 @@ color: chocolate;
 }
 
 .body-sobrenosotros {
-  background-image: url(/assets/multimedia/maderablanca.jpg);
+  background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -1762,7 +1762,7 @@ color: chocolate;
 /* contacto */
 .header-contacto{
   height: 8vw;
-  background-image: url(/assets/multimedia/logotipo.jpg);
+  background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -1778,7 +1778,7 @@ color: chocolate;
 }
 
 .body-contacto {
-  background-image: url(/assets/multimedia/maderablanca.jpg);
+  background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
