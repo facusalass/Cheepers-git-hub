@@ -1,8 +1,8 @@
-@charset "UTF-8";
 @font-face {
-  font-family: "lemon_mocktail";
-  src: url(../../fonts/Lemon\ Mocktail\ .ttf);
+  font-family: 'lemon_mocktail';
+  src: url(../../fonts/Lemon\ Mocktail\ .ttf );
 }
+
 body {
   background-image: url(../multimedia/maderaclara.jpg);
   background-size: cover;
@@ -10,15 +10,17 @@ body {
 }
 
 .nav-link {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 19px;
   right: 10px;
+
 }
 
 .navbar {
   background-color: rgb(0, 0, 0);
   border: solid rgb(236, 119, 36) 2px;
-  font-family: "lemon_mocktail";
+  font-family: 'lemon_mocktail';
+
 }
 
 @media (min-width: 990px) {
@@ -28,11 +30,13 @@ body {
     margin-left: 170px;
   }
 }
-@media (max-width: 348px) {
+
+@media(max-width:348px) {
   .navbar-logo {
     display: flex;
     margin-left: 110px;
   }
+
   .h1-navbar {
     position: relative;
     font-size: 30px;
@@ -41,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .navbar-brand {
     font-size: 20px;
     position: relative;
@@ -48,12 +53,14 @@ body {
     left: 60px;
   }
 }
-@media (min-width: 348px) {
+
+@media(min-width:348px) {
   .h1-navbar {
     position: relative;
     left: 39px;
     font-size: 40px;
   }
+
   .navbar-brand {
     font-size: 28px;
     position: relative;
@@ -61,6 +68,7 @@ body {
     top: 5px;
   }
 }
+
 .navbar-logo {
   width: 80px;
   height: 80px;
@@ -69,8 +77,10 @@ body {
   top: -3px;
 }
 
+
 /* Main inicio */
 .img-fluid {
+
   border: solid black 2px;
   height: 415px;
 }
@@ -80,110 +90,144 @@ body {
     display: flex;
     justify-content: space-evenly;
   }
+
   .promocion-dia {
     text-align: center;
     position: relative;
     top: 25px;
     left: 5px;
   }
+
   .nueva-cheepers {
     text-align: center;
     position: relative;
     top: -1px;
     right: 5px;
   }
+
   .promo-dia,
   .nueva-burguer {
     font-size: 34px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(216, 196, 82);
     text-shadow: 2px 3px rgb(241, 1, 1);
+
   }
+
   .nueva-burguer {
     position: relative;
     top: 25px;
     left: 3px;
   }
+
   iframe {
     max-width: 100%;
     border: solid rgb(252, 0, 0) 3px;
     margin-top: 28px;
+
     width: 390px;
     height: 413px;
   }
   .promo-dia {
     position: relative;
     top: -4px;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(216, 196, 82);
     text-shadow: 2px 3px rgb(241, 1, 1);
     font-size: 35px;
   }
+  
   .nueva-burguer {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(216, 196, 82);
     text-shadow: 2px 3px rgb(241, 1, 1);
     font-size: 35px;
+  
   }
+  
 }
-@media (max-width: 870px) {
+
+
+
+@media (max-width:870px) {
   .contenido-inicio {
     text-align: center;
     margin-top: 30px;
     flex-direction: column;
   }
+
   .nueva-cheepers {
     position: relative;
     top: -15px;
   }
+
   iframe {
     border: solid rgb(252, 0, 0) 3px;
     width: 358px;
     height: 416px;
+
   }
+
   .img-fluid {
     width: 355px;
   }
   .promo-dia {
     position: relative;
     top: -2px;
-    font-family: sans-serif;
-    font-size: 34px;
-    font-weight: bold;
-    color: rgb(255, 215, 0);
+  
+    font-family: sans-serif; 
+    font-size: 34px; 
+    font-weight: bold; 
+    color: rgb(255, 215, 0); 
     text-shadow: 3px 3px 2px red;
-    font-weight: 800;
+  font-weight: 800;
+
+
   }
+  
   .nueva-burguer {
-    font-family: sans-serif;
-    font-size: 34px;
-    font-weight: bold;
-    color: rgb(255, 215, 0);
+    font-family: sans-serif; 
+    font-size: 34px; 
+    font-weight: bold; 
+    color: rgb(255, 215, 0); 
     text-shadow: 3px 3px 2px red;
-    font-weight: 800;
+  font-weight: 800;
+
   }
 }
-@media (max-width: 359px) {
+
+@media(max-width:359px) {
+
   .nueva-cheepers {
     position: relative;
     top: -15px;
   }
+
   iframe {
     border: solid rgb(252, 0, 0) 3px;
     width: 315px;
     height: 416px;
+
   }
+
   .img-fluid {
     width: 315px;
   }
+
 }
+
+
 /* Sucursales */
-@media (min-width: 870px) {
+
+
+@media (min-width:870px) {
   .sucursales-img {
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
   }
+
   .cheepers-corrientes-img {
     height: 420px;
     width: 380px;
@@ -191,70 +235,89 @@ body {
     right: -12px;
     border: solid black 3px;
   }
+
   .cheepers-sarmiento-img {
     height: 420px;
     width: 390px;
     position: relative;
     left: 6px;
     border: solid black 3px;
+
   }
   .sucursales-title {
     color: rgb(216, 196, 82);
     text-shadow: 2px 3px rgb(241, 1, 1);
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 36px;
     margin-top: 30px;
   }
 }
-@media (max-width: 870px) {
+
+
+@media(max-width:870px) {
   .sucursales-img {
     flex-direction: column;
+
     margin-top: 25px;
+
   }
+
   .cheepers-sarmiento-img {
     height: 420px;
     width: 355px;
     border: solid black 3px;
     margin-top: 10px;
   }
+
   .cheepers-corrientes-img {
     height: 420px;
     width: 355px;
     border: solid black 3px;
   }
   .sucursales-title {
-    font-family: sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-    color: rgb(255, 215, 0);
+    font-family: sans-serif; 
+    font-size: 38px; 
+    font-weight: bold; 
+    color: rgb(255, 215, 0); 
     text-shadow: 3px 3px 2px red;
     margin-top: 70px;
-    font-weight: 800;
+  font-weight: 800;
   }
 }
-@media (max-width: 359px) {
+
+
+
+
+@media(max-width:359px) {
+
   .cheepers-sarmiento-img {
     height: 420px;
     width: 315px;
     border: solid black 3px;
     margin-top: 10px;
   }
+
   .cheepers-corrientes-img {
     height: 420px;
     width: 315px;
     border: solid black 3px;
   }
+
   .cheepers-corrientes p {
+
     display: inline-flex;
     position: relative;
     left: -18px;
+
   }
+
   .cheepers-corrientes i {
     color: red;
     position: relative;
     left: -25px;
     font-size: 21px;
   }
+
   .whatsapp-sede {
     height: 28px;
     width: 28px;
@@ -262,44 +325,57 @@ body {
     top: -10px;
     left: -58px;
   }
+
   .cheepers-corrientes a {
+
     font-size: 20px;
+
     display: inline;
     position: relative;
     top: -8px;
     left: -52px;
   }
+
+
   .cheepers-sarmiento p {
     font-size: 20px;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
     display: inline-flex;
     position: relative;
     left: -2px;
+
   }
+
   .cheepers-sarmiento i {
     color: red;
     position: relative;
     left: -6px;
     font-size: 21px;
   }
+
   .cheepers-sarmiento a {
+
     font-size: 20px;
+
     display: inline;
     position: relative;
     top: -8px;
     left: -60px;
   }
 }
+
+
 .cheepers-sede {
   margin-top: 5px;
   font-size: 32px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .cheepers-peron {
   margin-top: 5px;
   font-size: 31px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   position: relative;
   left: 0px;
 }
@@ -309,15 +385,16 @@ body {
 }
 
 .cheepers-peron span {
-  color: red;
+  color: red
 }
 
 .cheepers-corrientes p {
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   display: inline-flex;
   position: relative;
   right: 95px;
+
 }
 
 .cheepers-corrientes i {
@@ -338,7 +415,7 @@ body {
 .cheepers-corrientes a {
   text-decoration: none;
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
   display: inline;
   position: relative;
@@ -350,12 +427,14 @@ body {
   color: brown;
 }
 
+
 .cheepers-sarmiento p {
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   display: inline-flex;
   position: relative;
   right: 75px;
+
 }
 
 .cheepers-sarmiento i {
@@ -368,7 +447,7 @@ body {
 .cheepers-sarmiento a {
   text-decoration: none;
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: black;
   display: inline;
   position: relative;
@@ -380,38 +459,54 @@ body {
   color: brown;
 }
 
+
 .header-catalogo {
   height: 115px;
+
   background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: solid black 5px;
+  border: solid black 5px
 }
 
+
+
 .catalogo h1 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 45px;
   padding-left: 120px;
   margin-top: 10px;
   letter-spacing: 2px;
 }
 
+
+
+
+
 .catalogo h2 {
   padding-left: 53px;
   margin-top: -7px;
+
 }
 
+
 .hamburguesas h2 {
+ 
+ 
   left: -18px;
   top: 15px;
+
 }
+
+
 
 /* footer */
 footer {
   background-color: rgb(202, 34, 34);
   margin-top: 45px;
   border: solid rgb(0, 0, 0) 3px;
+
 }
 
 footer a {
@@ -420,13 +515,17 @@ footer a {
 }
 
 .redes {
+
   height: 30px;
   position: relative;
   bottom: 12px;
 }
-
 /* footer-fin */
+
+
 /* Catalogo */
+
+
 .header-catalogo {
   height: 10vw;
   background-image: url(../multimedia/logotipo.jpg);
@@ -435,11 +534,12 @@ footer a {
   border: solid 3px black;
 }
 
-@media (max-width: 480px) {
+@media(max-width:480px) {
   .header-catalogo {
     height: 12vw;
   }
 }
+
 .body-catalogo {
   background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
@@ -447,31 +547,33 @@ footer a {
   margin: 0;
 }
 
-.siguiente-pagina {
+.siguiente-pagina{
   display: flex;
   justify-content: end;
+
 }
 
 .volver-inicio {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 22px;
-  margin-top: -32px;
-  margin-left: 25px;
+margin-top: -32px;
+margin-left: 25px;
 }
+.ir-promo-logo{
 
-.ir-promo-logo {
-  text-decoration: none;
-  margin-top: -41px;
+text-decoration: none;
+margin-top: -41px;
 }
+.ir-promo{
 
-.ir-promo {
-  font-family: "Oswald", sans-serif;
+
+font-family: 'Oswald', sans-serif;
   font-size: 21px;
-  margin-top: -50px;
-  margin-right: 2px;
+margin-top: -50px;
+margin-right: 2px;
 }
-
 .catalogo i {
+
   font-size: 21px;
   color: black;
 }
@@ -495,7 +597,8 @@ footer a {
 
 .catalogo-titulos h1 {
   font-size: 48px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .hamburguesas {
@@ -508,51 +611,76 @@ footer a {
   top: 30px;
   font-weight: 600;
   color: rgb(0, 0, 0);
+
 }
 
-@media (max-width: 430px) {
+
+
+@media (max-width:430px) {
   .catalogo-titulos h2 {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+
   }
+
   .catalogo-titulos h1 {
     font-size: 32px;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
+
   }
+
 }
-@media (max-width: 360px) {
+
+@media (max-width:360px) {
   .catalogo-titulos h2 {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
+
   }
+
   .catalogo-titulos h1 {
     font-size: 29px;
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
     position: relative;
     right: 3px;
   }
+
 }
-@media (max-width: 768px) {
+
+
+
+
+
+
+
+@media (max-width:768px) {
   .hamburguesas {
     position: relative;
     top: 75px;
     font-size: 24px;
     font-weight: 800;
   }
+
   .catalogo-titulos {
     display: block;
     text-align: center;
     margin-top: -20px;
   }
+
   .catalogo-titulos h1 {
     margin-right: 102px;
+
   }
+
   .catalogo-titulos h2 {
     margin-right: 20px;
   }
   .burguers {
     margin-top: -40px;
+
   }
+
+
   .texana-clasica {
     display: flex;
     flex-direction: column;
@@ -560,116 +688,156 @@ footer a {
     justify-content: center;
     margin-top: -10px;
   }
+
   .barbacue-americana {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
   }
-  .bacon-cheddar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
+.bacon-cheddar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
   .texana {
+
     width: 330px;
   }
+
   .clasica {
     width: 330px;
   }
+
   .texana-infos a {
     position: relative;
     left: 70px;
   }
+
   .clasica-infos a {
     position: relative;
     left: 70px;
   }
+
   .clasica-infos {
     margin-bottom: 10px;
   }
+
   .barbacue {
-    height: 300px;
+height: 300px;
     width: 330px;
     border: solid rgb(255, 0, 0) 3px;
+
   }
+
   .americana {
     height: 300px;
     width: 330px;
     border: solid rgb(255, 0, 0) 3px;
+
   }
+
   .barbacue-infos a {
     position: relative;
     left: 70px;
   }
+
   .americana-infos a {
     position: relative;
     left: 70px;
+
   }
+
   .americana-infos {
     margin-top: 45px;
   }
-  .bacon-cheep {
-    height: 300px;
-    width: 330px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .cheddar {
-    height: 300px;
-    width: 330px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .cheddar-infos {
-    margin-top: 45px;
-  }
-  .bacon-infos a {
-    position: relative;
-    left: 70px;
-  }
-  .cheddar-infos a {
-    position: relative;
-    left: 70px;
-  }
-  .texana {
-    height: 300px;
-    width: 330px;
-    border: solid rgb(255, 0, 0) 3px;
-    margin-top: 70px;
-  }
-  .clasica {
-    height: 300px;
-    width: 330px;
-    border: solid rgb(255, 0, 0) 3px;
-    margin-top: 21px;
-  }
+.bacon-cheep{
+  height: 300px;
+  width: 330px;
+  border: solid rgb(255, 0, 0) 3px;
+
+
 }
-@media (min-width: 768px) {
+.cheddar{
+  height: 300px;
+  width: 330px;
+  border: solid rgb(255, 0, 0) 3px;
+
+
+}
+.cheddar-infos{
+  margin-top: 45px;
+}
+.bacon-infos a {
+  position: relative;
+  left: 70px;
+}
+
+.cheddar-infos a {
+  position: relative;
+  left: 70px;
+}
+.texana {
+  height: 300px;
+  width: 330px;
+  border: solid rgb(255, 0, 0) 3px;
+  margin-top: 70px;
+
+}
+
+.clasica {
+  height: 300px;
+  width: 330px;
+  border: solid rgb(255, 0, 0) 3px;
+  margin-top: 21px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
   .burguers {
     margin-top: 30px;
   }
+
   .texana {
     height: 300px;
     width: 360px;
     border: solid rgb(255, 0, 0) 3px;
     margin-top: 22px;
+
   }
+
   .clasica {
     height: 300px;
     width: 360px;
     border: solid rgb(255, 0, 0) 3px;
     margin-top: 21px;
   }
+
   .texana-infos a {
     display: block;
     position: relative;
     left: 80px;
   }
+
   .clasica-infos a {
     display: block;
     position: relative;
     left: 80px;
   }
+
   .barbacue {
     display: flex;
     flex-direction: column;
@@ -677,7 +845,9 @@ footer a {
     width: 360px;
     border: solid rgb(255, 0, 0) 3px;
     margin-top: 22px;
+
   }
+
   .americana {
     display: flex;
     flex-direction: column;
@@ -685,12 +855,15 @@ footer a {
     width: 360px;
     border: solid rgb(255, 0, 0) 3px;
     margin-top: 22px;
+
   }
+
   .barbacue-infos a {
     display: block;
     position: relative;
     left: 80px;
   }
+
   .americana-infos a {
     display: block;
     position: relative;
@@ -703,6 +876,7 @@ footer a {
     width: 363px;
     border: solid rgb(255, 0, 0) 3px;
     margin-top: 22px;
+
   }
   .cheddar {
     display: flex;
@@ -711,32 +885,45 @@ footer a {
     width: 363px;
     border: solid rgb(255, 0, 0) 3px;
     margin-top: 22px;
+
   }
   .barbacue-infos a {
     display: block;
     position: relative;
     left: 80px;
   }
+
   .bacon-infos a {
     display: block;
     position: relative;
     left: 80px;
   }
+
   .cheddar-infos a {
     display: block;
     position: relative;
     left: 80px;
   }
+
 }
+
+
+
+
+
 .texana-clasica {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 40px;
+  margin-top: 40px
 }
+
+
+
 
 .texana-infos a {
   display: block;
+
   width: 200px;
   margin-top: 5px;
   text-decoration: none;
@@ -750,6 +937,7 @@ footer a {
 
 .clasica-infos a {
   display: block;
+
   width: 200px;
   margin-top: 5px;
   text-decoration: none;
@@ -768,8 +956,10 @@ footer a {
   margin-top: 40px;
 }
 
+
 .barbacue-infos a {
   display: block;
+
   width: 200px;
   margin-top: 5px;
   text-decoration: none;
@@ -783,6 +973,7 @@ footer a {
 
 .americana-infos a {
   display: block;
+
   width: 200px;
   margin-top: 5px;
   text-decoration: none;
@@ -793,9 +984,9 @@ footer a {
   border: solid black 3px;
   background-color: yellow;
 }
-
 .bacon-cheddar a {
   display: block;
+
   width: 200px;
   margin-top: 5px;
   text-decoration: none;
@@ -807,487 +998,572 @@ footer a {
   background-color: yellow;
 }
 
-.bacon-cheddar {
+.bacon-cheddar{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 40px;
+
 }
 
-@media (max-width: 1050px) {
-  .pizzas h2 {
+
+
+@media (max-width:1050px){
+  .pizzas h2{
     font-weight: 600;
     font-family: sans-serif;
     color: black;
-    margin-left: 80px;
+margin-left: 80px;
   }
-  .para-acompañar h2 {
+  .para-acompañar h2{
     font-weight: 600;
     font-family: sans-serif;
     color: black;
-    margin-left: 20px;
+margin-left: 20px;
   }
-  .fugazzeta {
+  .fugazzeta{
     height: 290px;
-    width: 360px;
+width: 360px;
+
     border: solid rgb(255, 0, 0) 3px;
-  }
-  .fugazzeta-precio {
-    margin-left: 90px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .papas {
-    height: 290px;
-    width: 360px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .papas-precio {
-    margin-left: 35px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .especial {
-    height: 300px;
-    width: 360px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .especial-precio {
-    margin-left: 100px;
-    color: rgb(247, 103, 8);
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .muzza {
-    height: 290px;
-    width: 360px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .muzza-precio {
-    margin-left: 105px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .pizzas img {
-    margin-left: 0px;
-  }
-  .papa-gratinada {
-    height: 300px;
-    width: 360px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .gratinada-precio {
-    margin-left: 150px;
-    color: chocolate;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .aros {
-    height: 290px;
-    width: 360px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .aros-precio {
-    margin-left: 150px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .pizzas-para-acompañar {
-    display: flex;
-    justify-content: space-around;
-  }
-  .wsp {
-    margin-top: 30px;
-    height: 35px;
-    width: 35x;
-    margin-left: 0px;
-  }
-  .contactos a {
-    text-decoration: none;
-    color: black;
-  }
-  .wsp-boton {
-    position: relative;
-    top: 16px;
-    display: inline-flex;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: sans-serif;
-  }
-  .pedidosya {
-    display: block;
-    margin-top: 10px;
-    height: 30px;
-    width: 30px;
-    margin-left: 2px;
-  }
-  .pedidosya-boton {
-    position: relative;
-    left: 40px;
-    top: -35px;
-    display: inline;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: sans-serif;
-    color: coral;
-  }
-  .facebook-catalogo {
-    margin-top: 15px;
-    height: 30px;
-    width: 35px;
-    margin-left: -87px;
-  }
-  .facebook-boton {
-    position: relative;
+    }
+    .fugazzeta-precio{
+      margin-left: 90px;
+      color: black;
+      font-weight: 600;
+      font-family: sans-serif;
+      font-size: 22px;
+      margin-top: 5px;
+      }
+    .papas{
+      height: 290px;
+      width: 360px;
+ 
+      border: solid rgb(255, 0, 0) 3px;
+    
+    }
+    .papas-precio{
+
+      margin-left: 35px;
+      color:black;
+      font-weight: 600;
+      font-family: sans-serif;
+      font-size: 22px;
+      margin-top: 5px;
+
+    }
+
+    .especial{
+      height: 300px;
+      width: 360px;
+
+      border: solid rgb(255, 0, 0) 3px;
+    }
+    .especial-precio{
+      margin-left: 100px;
+      color: rgb(247, 103, 8);
+      font-weight: 600;
+      font-family: sans-serif;
+      font-size: 22px;
+      margin-top: 5px;
+      }
+      .muzza{
+        height: 290px;
+        width: 360px;
+       
+        border: solid rgb(255, 0, 0) 3px;
+    
+      }
+    .muzza-precio{
+      margin-left: 105px;
+      color:black;
+      font-weight: 600;
+      font-family: sans-serif;
+      font-size: 22px;
+      margin-top: 5px;
+    
+    }
+    .pizzas img {
+      margin-left:0px ;
+      
+      }
+      .papa-gratinada{
+        height: 300px;
+        width: 360px;
+
+        border: solid rgb(255, 0, 0) 3px;
+      
+      
+      }
+      .gratinada-precio{
+        margin-left: 150px;
+        color:chocolate;
+        font-weight: 600;
+        font-family: sans-serif;
+        font-size: 22px;
+        margin-top: 5px;
+      }
+      .aros{
+        height: 290px;
+        width: 360px;
+      
+        border: solid rgb(255, 0, 0) 3px;
+    
+      }
+      .aros-precio{
+        margin-left: 150px;
+        color:black;
+        font-weight: 600;
+        font-family: sans-serif;
+        font-size: 22px;
+        margin-top: 5px;
+      
+      }
+      .pizzas-para-acompañar{
+        display: flex;
+        justify-content: space-around
+        
+        }
+         .wsp {
+          margin-top: 30px;
+          height: 35px;
+          width: 35x;
+          margin-left: 0px;
+        }
+        
+        
+        .contactos a{
+          text-decoration: none;
+          color: black;
+        }
+        .wsp-boton{
+         position: relative;
+          top: 16px;
+          display: inline-flex;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: sans-serif;
+        }
+        .pedidosya{
+         display: block;
+         margin-top: 10px;
+          height: 30px;
+          width: 30px;
+          margin-left:2px;
+        }
+        .pedidosya-boton{
+        position: relative;
+        left:  40px;
+        top:-35px;
+        display: inline;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: sans-serif;
+        color: coral;
+        }
+        .facebook-catalogo{
+      
+        margin-top: 15px;
+           height: 30px;
+           width: 35px;
+           margin-left: -87px;
+        
+        }
+        .facebook-boton{
+        position: relative;
     top: 10px;
-    margin-left: 3px;
-    display: inline;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: sans-serif;
-    color: rgb(240, 47, 47);
-  }
-  .footer-catalogo {
-    margin-top: 20px;
-  }
+margin-left: 3px;
+        display: inline;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: sans-serif;
+        color: rgb(240, 47, 47)
+        } 
+        .footer-catalogo{
+          margin-top: 20px;
+          }
 }
-@media (min-width: 1051px) {
-  .pizzas h2 {
-    font-weight: 600;
-    font-family: sans-serif;
-    color: black;
+
+
+
+
+   @media (min-width:1051px){
+
+    .pizzas h2{
+      font-weight: 600;
+      font-family: sans-serif;
+      color: black;
     position: relative;
-    left: 180px;
+    left:  180px;
+    }
+    .para-acompañar h2{
+      font-weight: 600;
+      font-family: sans-serif;
+      color: black;
+      position: relative;
+      right:  -4px;
+    }
+    .fugazzeta{
+      height: 290px;
+      width: 360px;
+      margin-left: 50px;
+      border: solid rgb(255, 0, 0) 3px;
+      }
+      .papas{
+        height: 290px;
+        width: 360px;
+        margin-right: 95px;
+        border: solid rgb(255, 0, 0) 3px;
+      
+      }
+      .fugazzeta-precio{
+        margin-left: 195px;
+        color: black;
+        font-weight: 600;
+        font-family: sans-serif;
+        font-size: 22px;
+        margin-top: 5px;
+        }
+        .papas-precio{
+
+          margin-left: 45px;
+          color:black;
+          font-weight: 600;
+          font-family: sans-serif;
+          font-size: 22px;
+          margin-top: 5px;
+        
+        }
+        .especial{
+          height: 300px;
+          width: 360px;
+          margin-left: 50px;
+          border: solid rgb(255, 0, 0) 3px;
+        }
+        .especial-precio{
+          margin-left: 200px;
+          color: rgb(247, 103, 8);
+          font-weight: 600;
+          font-family: sans-serif;
+          font-size: 22px;
+          margin-top: 5px;
+          }
+          .muzza{
+            height: 290px;
+            width: 360px;
+            margin-left: 50px;
+            border: solid rgb(255, 0, 0) 3px;
+        
+          }
+        .muzza-precio{
+          margin-left: 210px;
+          color:black;
+          font-weight: 600;
+          font-family: sans-serif;
+          font-size: 22px;
+          margin-top: 5px;
+        
+        }
+        
+.pizzas img {
+  margin-left:100px ;
+  
   }
-  .para-acompañar h2 {
-    font-weight: 600;
-    font-family: sans-serif;
-    color: black;
-    position: relative;
-    right: -4px;
-  }
-  .fugazzeta {
-    height: 290px;
-    width: 360px;
-    margin-left: 50px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .papas {
-    height: 290px;
-    width: 360px;
-    margin-right: 95px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .fugazzeta-precio {
-    margin-left: 195px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .papas-precio {
-    margin-left: 45px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .especial {
+  .papa-gratinada{
     height: 300px;
     width: 360px;
-    margin-left: 50px;
+   
     border: solid rgb(255, 0, 0) 3px;
+  
+  
   }
-  .especial-precio {
-    margin-left: 200px;
-    color: rgb(247, 103, 8);
+  .gratinada-precio{
+    margin-left: 150px;
+    color:chocolate;
     font-weight: 600;
     font-family: sans-serif;
     font-size: 22px;
     margin-top: 5px;
   }
-  .muzza {
+  .aros{
     height: 290px;
     width: 360px;
-    margin-left: 50px;
+   
     border: solid rgb(255, 0, 0) 3px;
+  
   }
-  .muzza-precio {
-    margin-left: 210px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .pizzas img {
-    margin-left: 100px;
-  }
-  .papa-gratinada {
-    height: 300px;
-    width: 360px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .gratinada-precio {
+  .aros-precio{
     margin-left: 150px;
-    color: chocolate;
+    color:black;
     font-weight: 600;
     font-family: sans-serif;
     font-size: 22px;
     margin-top: 5px;
+  
   }
-  .aros {
-    height: 290px;
-    width: 360px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .aros-precio {
-    margin-left: 150px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .pizzas-para-acompañar {
+  .pizzas-para-acompañar{
     display: flex;
-    justify-content: space-around;
-  }
-  .wsp {
-    margin-top: 70px;
-    height: 50px;
-    width: 50px;
-    margin-left: 10px;
-  }
-  .contactos a {
-    text-decoration: none;
-    color: black;
-  }
-  .wsp-boton {
-    position: relative;
-    top: 37px;
-    display: inline-flex;
+    justify-content: space-around
+    
+    }
+    .wsp {
+      margin-top: 70px;
+      height: 50px;
+      width: 50px;
+      margin-left: 10px;
+    }
+    
+    
+    .contactos a{
+      text-decoration: none;
+      color: black;
+    }
+    .wsp-boton{
+     position: relative;
+      top: 37px;
+      display: inline-flex;
     font-size: 19px;
     font-weight: 600;
     font-family: sans-serif;
-  }
-  .pedidosya {
-    display: block;
-    margin-top: 10px;
-    height: 35px;
-    width: 40px;
-    margin-left: 14px;
-  }
-  .pedidosya-boton {
+    }
+    .pedidosya{
+      display: block;
+     margin-top: 10px;
+      height: 35px;
+      width: 40px;
+      margin-left: 14px;
+    }
+    .pedidosya-boton{
     position: relative;
-    left: 65px;
+    left:  65px;
     top: -30px;
     display: inline;
     font-size: 19px;
     font-weight: 600;
     font-family: sans-serif;
     color: coral;
-  }
-  .facebook-catalogo {
-    display: block;
+    }
+    .facebook-catalogo{
+      display: block;
     margin-top: -10px;
-    height: 40px;
-    width: 40px;
-    margin-left: 12px;
-  }
-  .facebook-boton {
-    position: relative;
-    left: 65px;
+       height: 40px;
+       width: 40px;
+       margin-left: 12px;
+    
+    }
+    .facebook-boton{
+      position: relative;
+    left:  65px;
     top: -33px;
     display: inline;
     font-size: 19px;
     font-weight: 600;
     font-family: sans-serif;
-    color: rgb(240, 47, 47);
-  }
-  .footer-catalogo {
+    color: rgb(240, 47, 47)
+    }
+    .footer-catalogo{
     margin-top: -5px;
-  }
-}
-@media (Max-width: 768px) {
-  .pizzas-para-acompañar {
-    display: block;
+    }
+  }  
+
+
+
+
+
+  
+@media(Max-width:768px){
+  .pizzas-para-acompañar{
+display: block;
     text-align: center;
-  }
-  .pizzas h2 {
-    font-weight: 600;
-    font-family: sans-serif;
-    color: black;
-    position: relative;
-    right: 60px;
-    font-size: 35px;
-    margin-top: 50px;
-  }
-  .para-acompañar h2 {
-    font-weight: 650;
-    font-family: sans-serif;
-    color: black;
-    margin-right: 60px;
-    margin-top: 90px;
-    font-size: 28px;
-  }
-  .fugazzeta {
-    height: 290px;
-    width: 330px;
-    border: solid rgb(255, 0, 0) 3px;
-    margin-top: 10px;
-  }
-  .papas {
-    height: 290px;
-    width: 330px;
-    margin-right: 95px;
-    border: solid rgb(255, 0, 0) 3px;
-    margin-top: 10px;
-  }
-  .fugazzeta-precio {
-    margin-left: 10px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .papas-precio {
-    margin-left: 3px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .especial {
+
+    }
+
+    .pizzas h2{
+      font-weight: 600;
+      font-family: sans-serif;
+      color: black;
+ position: relative;
+ right: 60px;
+font-size: 35px;
+margin-top: 50px;
+    }
+    .para-acompañar h2{
+      font-weight: 650;
+      font-family: sans-serif;
+      color: black;
+  margin-right: 60px;
+      margin-top: 90px;
+      font-size: 28px;
+    }
+    .fugazzeta{
+      height: 290px;
+      width: 330px;
+
+      border: solid rgb(255, 0, 0) 3px;
+      margin-top: 10px;
+      }
+      .papas{
+        height: 290px;
+        width: 330px;
+        margin-right: 95px;
+        border: solid rgb(255, 0, 0) 3px;
+     
+      margin-top: 10px;
+      }
+      .fugazzeta-precio{
+        margin-left: 10px;
+        color: black;
+        font-weight: 600;
+        font-family: sans-serif;
+        font-size: 22px;
+        margin-top: 5px;
+        }
+        .papas-precio{
+
+          margin-left: 3px;
+          color:black;
+          font-weight: 600;
+          font-family: sans-serif;
+          font-size: 22px;
+          margin-top: 5px;
+        
+        }
+        .especial{
+          height: 300px;
+          width: 330px;
+   
+          border: solid rgb(255, 0, 0) 3px;
+        }
+        .especial-precio{
+          margin-left: 10px;
+          color: rgb(247, 103, 8);
+          font-weight: 600;
+          font-family: sans-serif;
+          font-size: 22px;
+          margin-top: 5px;
+          }
+          .muzza{
+            height: 290px;
+            width: 330px;
+      
+            border: solid rgb(255, 0, 0) 3px;
+        
+          }
+        .muzza-precio{
+          margin-left: 15px;
+          color:black;
+          font-weight: 600;
+          font-family: sans-serif;
+          font-size: 22px;
+          margin-top: 5px;
+        
+        }
+        
+
+  .papa-gratinada{
     height: 300px;
     width: 330px;
+ 
     border: solid rgb(255, 0, 0) 3px;
+  
+  
   }
-  .especial-precio {
+  .gratinada-precio{
     margin-left: 10px;
-    color: rgb(247, 103, 8);
+    color:chocolate;
     font-weight: 600;
     font-family: sans-serif;
     font-size: 22px;
     margin-top: 5px;
   }
-  .muzza {
+  .aros{
     height: 290px;
     width: 330px;
+
     border: solid rgb(255, 0, 0) 3px;
+  
   }
-  .muzza-precio {
-    margin-left: 15px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
-  .papa-gratinada {
-    height: 300px;
-    width: 330px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .gratinada-precio {
+  .aros-precio{
     margin-left: 10px;
-    color: chocolate;
+    color:black;
     font-weight: 600;
     font-family: sans-serif;
     font-size: 22px;
     margin-top: 5px;
+  
   }
-  .aros {
-    height: 290px;
-    width: 330px;
-    border: solid rgb(255, 0, 0) 3px;
-  }
-  .aros-precio {
-    margin-left: 10px;
-    color: black;
-    font-weight: 600;
-    font-family: sans-serif;
-    font-size: 22px;
-    margin-top: 5px;
-  }
+
   .pizzas-para-acompañar {
-    display: block;
-    text-align: center;
+    display: block; 
+    text-align: center; 
   }
+
   .fugazzeta,
   .papas,
   .especial,
   .muzza,
   .papa-gratinada,
   .aros {
-    margin: 0 auto;
+    margin: 0 auto; 
     width: 330px;
-    margin-top: 10px;
+    margin-top: 10px; 
   }
+
   .pizzas img {
-    display: block;
-    margin: 0 auto;
+    display: block; 
+    margin: 0 auto; 
   }
-  .footer-catalogo {
+
+  .footer-catalogo{
     margin-top: 20px;
-  }
+    }
 }
-.contactos a {
+
+
+
+
+
+.contactos a{
   text-decoration: none;
   color: black;
 }
 
+
 /* catalogo-fin */
+
 /* promos */
 .header-promos {
   height: 8vw;
   background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
+
   background-repeat: no-repeat;
+
   width: 100%;
   border: solid 3px black;
 }
 
-@media (max-width: 520px) {
+@media(max-width:520px) {
+
   .header-promos {
     height: 9vw;
   }
 }
+
 .body-promos {
   background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
 }
-
-.ir-sobrenosotros {
-  font-family: "Oswald", sans-serif;
+.ir-sobrenosotros{
+  font-family: 'Oswald', sans-serif;
   font-size: 21px;
-  margin-top: -50px;
-  margin-right: 2px;
-}
+margin-top: -50px;
+margin-right: 2px;
 
-.ir-sobrenosotros-logo {
+}
+.ir-sobrenosotros-logo{
   margin-top: -41px;
 }
 
@@ -1304,9 +1580,12 @@ footer a {
   font-size: 22px;
 }
 
+
+
 .promos-titulos h1 {
+
   margin-left: 90px;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 45px;
 }
 
@@ -1314,40 +1593,51 @@ footer a {
   font-family: sans-serif;
   font-size: 26px;
   margin-left: 28px;
-  font-weight: 600;
-  color: chocolate;
+font-weight: 600;
+color: chocolate;
 }
-
 .promociones h2 {
   padding-left: 72px;
-  margin-top: -7px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@media (max-width: 768px) {
+    margin-top: -7px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  
+@media(max-width:768px) {
   .promos-titulos {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
     text-align: center;
   }
+
   .promos-titulos h1 {
     margin-left: 40px;
+
   }
+
 }
-@media (max-width: 450px) {
+
+@media(max-width:450px) {
   .promos-titulos h2 {
     font-size: 20px;
+ 
   }
+
   .promos-titulos h1 {
     font-size: 35px;
+
   }
+
 }
+
 .promociones {
   display: flex;
   justify-content: space-around;
   margin-top: 90px;
 }
+
 
 .promo-burguers h2 {
   font-size: 28px;
@@ -1364,13 +1654,16 @@ footer a {
 }
 
 .texana-promo {
+
   height: 300px;
   width: 360px;
   border: solid rgb(255, 0, 0) 3px;
   margin-top: 15px;
+
 }
 
 .nuggets-promo {
+
   height: 300px;
   width: 360px;
   border: solid rgb(255, 0, 0) 3px;
@@ -1379,25 +1672,33 @@ footer a {
   left: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width:768px) {
   .promociones {
     display: flex;
     flex-direction: column;
     margin-top: 90px;
     text-align: center;
   }
+
   .nuggets-promo {
+
     height: 280px;
     width: 330px;
+
     margin-top: 10px;
     position: relative;
     left: 0px;
   }
+
   .texana-promo {
+
     height: 280px;
     width: 330px;
+
     margin-top: -15px;
+
   }
+
   .promo-especiales h2 {
     font-size: 24px;
     font-weight: 750;
@@ -1405,30 +1706,42 @@ footer a {
     right: 33px;
     margin-top: 40px;
   }
+
   .promo-burguers h2 {
     font-size: 24px;
     font-weight: 750;
+
     position: relative;
     right: 25px;
     top: -25px;
   }
+
+
 }
 /* promo-fin */
+
+
+
 /* Sobre nosotros */
-.header-sobrenosotros {
+
+.header-sobrenosotros{
   height: 8vw;
   background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
+
   background-repeat: no-repeat;
+
   width: 100%;
   border: solid 3px black;
 }
 
-@media (max-width: 520px) {
+@media(max-width:520px) {
+
   .header-sobrenosotros {
     height: 9vw;
   }
 }
+
 .body-sobrenosotros {
   background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
@@ -1436,88 +1749,87 @@ footer a {
   margin: 0;
 }
 
-.sobrenosotros-volver i {
-  color: black;
+.sobrenosotros-volver i{
+color: black;
+font-size: 21px;
+}
+.sobrenosotros-volver p{
+font-size: 22px;
+}
+.ir-contacto{
+  font-family: 'Oswald', sans-serif;
   font-size: 21px;
-}
+margin-top: -50px;
+margin-right: 2px;
 
-.sobrenosotros-volver p {
-  font-size: 22px;
 }
-
-.ir-contacto {
-  font-family: "Oswald", sans-serif;
-  font-size: 21px;
-  margin-top: -50px;
-  margin-right: 2px;
-}
-
-.ir-contacto-logo {
+.ir-contacto-logo{
   margin-top: -41px;
 }
 
-.sobrenosotros-titulo {
-  display: flex;
-  flex-direction: column;
-}
 
-.sobrenosotros-titulo h1 {
-  margin-left: 90px;
-  font-family: "Oswald", sans-serif;
-  font-size: 45px;
-}
+.sobrenosotros-titulo{
+display: flex;
+flex-direction: column;
 
-.sobrenosotros-titulo h2 {
+}
+.sobrenosotros-titulo h1{
+margin-left: 90px;
+font-family: 'Oswald', sans-serif;
+font-size: 45px;
+}
+.sobrenosotros-titulo h2{
   margin-left: 30px;
-  font-size: 25px;
+ font-size: 25px;
   font-family: sans-serif;
   font-weight: 600;
   color: chocolate;
-}
-
-.logo-cheepers {
-  display: flex;
-  margin-left: auto;
-  margin-right: 2px;
-  margin-top: -130px;
+  }
+  .logo-cheepers{
+display: flex;
+margin-left: auto;
+margin-right: 2px;
+margin-top: -130px;
   height: 140px;
   width: 150px;
-}
-
-.cheepers-historia p {
+  }
+  .cheepers-historia p{
   padding-left: 20px;
   font-size: 19px;
   padding-right: 20px;
-  font-family: sans-serif;
-  font-weight: 550;
+font-family:  sans-serif;
+font-weight: 550;
   letter-spacing: 1px;
-  margin-top: 15px;
-  line-height: 1.6;
-  text-align: justify;
+margin-top: 15px;
+line-height: 1.6;
+text-align: justify;
 }
-
-.cheepers-nombre h2 {
-  margin-left: 20px;
-  font-size: 28px;
-  color: chocolate;
+.cheepers-nombre h2{
+margin-left: 20px;
+font-size: 28px;
+color: chocolate;
 }
-
 /* sobrenosotros-fin */
+
+
 /* contacto */
-.header-contacto {
+.header-contacto{
   height: 8vw;
   background-image: url(../multimedia/logotipo.jpg);
   background-size: cover;
+
   background-repeat: no-repeat;
+
   width: 100%;
   border: solid 3px black;
 }
+@media(max-width:520px) {
 
-@media (max-width: 520px) {
   .header-contacto {
-    height: 9vw;
+    height:9vw;
   }
 }
+
 .body-contacto {
   background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
@@ -1525,109 +1837,103 @@ footer a {
   margin: 0;
 }
 
-.contacto-volver i {
+
+.contacto-volver i{
+font-size: 21px;
+color: black;
+}
+.contacto-volver p{
+font-size: 22px;
+
+}
+.ir-inicio{
+  font-family: 'Oswald', sans-serif;
   font-size: 21px;
-  color: black;
-}
+margin-top: -49px;
+margin-right: 2px;
 
-.contacto-volver p {
-  font-size: 22px;
 }
-
-.ir-inicio {
-  font-family: "Oswald", sans-serif;
-  font-size: 21px;
-  margin-top: -49px;
-  margin-right: 2px;
-}
-
-.ir-inicio-logo {
+.ir-inicio-logo{
   margin-top: -42px;
 }
 
-.contacto-titulos h1 {
-  font-family: "Oswald", sans-serif;
-  margin-left: 106px;
-  font-size: 45px;
+.contacto-titulos h1{
+  font-family: 'Oswald', sans-serif;
+margin-left: 106px;
+font-size: 45px;
+}
+.contacto-titulos h2{
+font-size: 25px;
+margin-left: 42px;
+color: chocolate;
+font-weight: 600;
+font-family: sans-serif;
 }
 
-.contacto-titulos h2 {
-  font-size: 25px;
-  margin-left: 42px;
-  color: chocolate;
-  font-weight: 600;
-  font-family: sans-serif;
+.contacto-parrafo{
+margin-left: 15px;
+margin-top: 28px;
+font-size: 22px;
+font-family: sans-serif;
+font-weight: 550;
+letter-spacing: 1.2px;
 }
-
-.contacto-parrafo {
-  margin-left: 15px;
-  margin-top: 28px;
-  font-size: 22px;
-  font-family: sans-serif;
-  font-weight: 550;
-  letter-spacing: 1.2px;
+.contacto-medios{
+margin-top: 40px;
+margin-left: 15px;
+font-family: sans-serif;
+font-weight: 550;
+color: chocolate;
+font-size: 22px;
+letter-spacing: 1px;
 }
-
-.contacto-medios {
-  margin-top: 40px;
-  margin-left: 15px;
-  font-family: sans-serif;
-  font-weight: 550;
-  color: chocolate;
-  font-size: 22px;
-  letter-spacing: 1px;
+.gmail{
+height: 25px;
+width: 35px;
+margin-left: 20px;
+margin-top: 20px;
 }
-
-.gmail {
-  height: 25px;
-  width: 35px;
-  margin-left: 20px;
-  margin-top: 20px;
+.gmail-p{
+font-size: 17px;
+display: inline;
+font-family: sans-serif;
+color: black;
+position: relative;
+top: 10px;
 }
-
-.gmail-p {
-  font-size: 17px;
-  display: inline;
-  font-family: sans-serif;
-  color: black;
-  position: relative;
-  top: 10px;
-}
-
-.instagram {
+.instagram{
   height: 35px;
   width: 40px;
   display: block;
   margin-top: 20px;
   margin-left: 16px;
 }
-
-.instagram-p {
+.instagram-p{
   font-size: 17px;
   display: inline;
   font-family: sans-serif;
   color: black;
   position: relative;
+top: -35px;
+margin-left: 60px;
+  }
+  .facebook{
+    height: 35px;
+    width: 40px;
+    display: block;
+    margin-top: -15px;
+    margin-left: 16px
+
+  }
+  .facebook-p{
+    font-size: 17px;
+    display: inline;
+    font-family: sans-serif;
+    color: black;
+    position: relative;
   top: -35px;
   margin-left: 60px;
-}
+    }
 
-.facebook {
-  height: 35px;
-  width: 40px;
-  display: block;
-  margin-top: -15px;
-  margin-left: 16px;
-}
-
-.facebook-p {
-  font-size: 17px;
-  display: inline;
-  font-family: sans-serif;
-  color: black;
-  position: relative;
-  top: -35px;
-  margin-left: 60px;
-}
-
-/*# sourceMappingURL=style.css.map */
+  
+  
