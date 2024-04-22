@@ -468,9 +468,7 @@ footer a {
   position: relative;
   bottom: 12px;
 }
-
 /* footer-fin */
-
 
 /* Catalogo */
 /* variables */
@@ -486,7 +484,6 @@ $font-arial: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
   @media(max-width:480px) {
     & {
       height: 11vw;
@@ -497,6 +494,8 @@ $font-arial: Arial, Helvetica, sans-serif;
 
 .body-catalogo {
   background-image: $fondo-blanco;
+  background-color: rgb(116, 114, 114);
+  background-blend-mode: overlay; 
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -1355,10 +1354,7 @@ $font-arial: Arial, Helvetica, sans-serif;
 @extend .header-catalogo;
 }
 .body-promos {
-  background-image: $fondo-blanco;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
+ @extend .body-catalogo 
 }
 
 .volver-inicio {
@@ -1588,7 +1584,7 @@ top: 100px;
   font-size: 18px;
   margin-left: -2px;
 }
-@media(min-width:768px){
+@media(min-width:769px){
 .pedidosya-boton-promo{
   position: relative;
     left: 65px;
@@ -1598,6 +1594,14 @@ top: 100px;
     font-weight: 600;
     font-family: $font-arial;
     color: coral;
+}
+@media (max-width:1050px){
+  .pedidosya-boton-promo{
+    position: relative;
+      left: 40px;
+      top: -28px;
+      font-size: 20px;
+}
 }
 .footer-promo{
   margin-top: 20px;
@@ -1611,10 +1615,7 @@ top: 100px;
 }
 
 .body-sobrenosotros {
-  background-image: $fondo-blanco;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
+  @extend .body-catalogo 
 }
 
 .sobrenosotros-volver i {
@@ -1656,25 +1657,27 @@ top: 100px;
   color: chocolate;
 }
 
-.logo-cheepers {
-  display: flex;
-  margin-left: auto;
-  margin-top: -125px;
-  height: 140px;
-  width: 150px;
-}
+  .logo-cheepers {
+    display: flex;
+    margin-left: auto;
+    margin-top: -125px;
+    height: 140px;
+    width: 150px;
+  }
+  
+  .cheepers-historia p {
+    padding-left: 20px;
+    font-size: 19px;
+    padding-right: 20px;
+    font-family: $font-arial;
+    font-weight: 550;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
 
-.cheepers-historia p {
-  padding-left: 20px;
-  font-size: 19px;
-  padding-right: 20px;
-  font-family: $font-arial;
-  font-weight: 550;
-  letter-spacing: 1px;
-  margin-top: 5px;
-  line-height: 1.6;
-  text-align: justify;
-}
 
 .cheepers-nombre h2 {
   margin-left: 20px;
@@ -1704,6 +1707,63 @@ top: 9px;
 .footer-sobrenosotros{
   margin-top: 25px;
 }
+@media  (max-width:769px){
+  .cheepers-historia p{
+    font-size: 17px;
+  }
+  .logo-cheepers {
+    height: 100px;
+    width: 100px;
+  position: relative;
+  top: 5px;
+}
+}
+@media (max-width:590px){
+  .cheepers-historia p{
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.1px;
+    margin-top: -10px;
+  }
+  .logo-cheepers{
+    display: none;
+  }
+  .sobrenosotros-titulo h1 {
+text-align: center;
+font-size:27px ;
+margin-right: 75px;
+  }
+  
+  .sobrenosotros-titulo h2 {
+    margin-left: 30px;
+    font-size: 19px;
+   text-align: center;
+   margin-right: 18px;
+  }
+  .cheepers-nombre h2 {
+   margin-left: 18px;
+    font-size: 22px;
+position: relative;
+top: -10px;
+margin-top:30px;
+  }
+  .contacto-sobrenosotros h2{
+ font-size: 17px;
+ margin-right: 22px;
+ margin-top: 25px;
+  }
+  .contacto-sobrenosotros img{
+   width: 30px;
+   height: 20px;
+   position: relative;
+   top: -10px;
+  }
+  .contacto-sobrenosotros p{
+  font-size: 15px;
+  position: relative;
+  top: 2px;
+  }
+}
 /* sobrenosotros-fin */
 
 /* contacto */
@@ -1712,10 +1772,7 @@ top: 9px;
   }
 
 .body-contacto {
-  background-image: $fondo-blanco;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
+  @extend .body-catalogo 
 }
 
 .contacto-volver i {

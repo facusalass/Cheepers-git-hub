@@ -429,8 +429,10 @@ footer a {
   }
 }
 
-.body-catalogo {
+.body-catalogo, .body-contacto, .body-sobrenosotros, .body-promos {
   background-image: url(../multimedia/Maderablanca.jpg);
+  background-color: rgb(116, 114, 114);
+  background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -1236,13 +1238,6 @@ footer a {
 
 /* catalogo-fin */
 /* promos */
-.body-promos {
-  background-image: url(../multimedia/Maderablanca.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
-}
-
 .volver-inicio {
   font-family: "Oswald", sans-serif;
   font-size: 20px;
@@ -1484,7 +1479,7 @@ footer a {
   margin-left: -2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .pedidosya-boton-promo {
     position: relative;
     left: 65px;
@@ -1495,19 +1490,22 @@ footer a {
     font-family: Arial, Helvetica, sans-serif;
     color: coral;
   }
+}
+@media (min-width: 769px) and (max-width: 1050px) {
+  .pedidosya-boton-promo {
+    position: relative;
+    left: 40px;
+    top: -28px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) {
   .footer-promo {
     margin-top: 20px;
   }
 }
 /* promo-fin */
 /* Sobre nosotros */
-.body-sobrenosotros {
-  background-image: url(../multimedia/Maderablanca.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
-}
-
 .sobrenosotros-volver i {
   color: black;
   font-size: 19px;
@@ -1600,15 +1598,64 @@ footer a {
   margin-top: 25px;
 }
 
+@media (max-width: 769px) {
+  .cheepers-historia p {
+    font-size: 17px;
+  }
+  .logo-cheepers {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 5px;
+  }
+}
+@media (max-width: 590px) {
+  .cheepers-historia p {
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 0.1px;
+    margin-top: -10px;
+  }
+  .logo-cheepers {
+    display: none;
+  }
+  .sobrenosotros-titulo h1 {
+    text-align: center;
+    font-size: 27px;
+    margin-right: 75px;
+  }
+  .sobrenosotros-titulo h2 {
+    margin-left: 30px;
+    font-size: 19px;
+    text-align: center;
+    margin-right: 18px;
+  }
+  .cheepers-nombre h2 {
+    margin-left: 18px;
+    font-size: 22px;
+    position: relative;
+    top: -10px;
+    margin-top: 30px;
+  }
+  .contacto-sobrenosotros h2 {
+    font-size: 17px;
+    margin-right: 22px;
+    margin-top: 25px;
+  }
+  .contacto-sobrenosotros img {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    top: -10px;
+  }
+  .contacto-sobrenosotros p {
+    font-size: 15px;
+    position: relative;
+    top: 2px;
+  }
+}
 /* sobrenosotros-fin */
 /* contacto */
-.body-contacto {
-  background-image: url(../multimedia/Maderablanca.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0;
-}
-
 .contacto-volver i {
   color: black;
   font-size: 20px;
