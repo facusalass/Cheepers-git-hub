@@ -414,7 +414,7 @@ footer a {
 /* footer-fin */
 /* Catalogo */
 /* variables */
-.header-catalogo {
+.header-catalogo, .header-contacto, .header-sobrenosotros, .header-promos {
   background-image: url(../multimedia/logotipo.jpg);
   height: 9vw;
   width: 100%;
@@ -424,8 +424,8 @@ footer a {
   background-position: center;
 }
 @media (max-width: 480px) {
-  .header-catalogo {
-    height: 12vw;
+  .header-catalogo, .header-contacto, .header-sobrenosotros, .header-promos {
+    height: 11vw;
   }
 }
 
@@ -1236,21 +1236,6 @@ footer a {
 
 /* catalogo-fin */
 /* promos */
-.header-promos {
-  height: 9vw;
-  background-image: url(../multimedia/logotipo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  border: black solid 3px;
-}
-
-@media (max-width: 520px) {
-  .header-promos {
-    height: 11vw;
-  }
-}
 .body-promos {
   background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
@@ -1516,21 +1501,6 @@ footer a {
 }
 /* promo-fin */
 /* Sobre nosotros */
-.header-sobrenosotros {
-  height: 9vw;
-  background-image: url(../multimedia/logotipo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-position: center;
-  border: black solid 3px;
-}
-
-@media (max-width: 520px) {
-  .header-sobrenosotros {
-    height: 10vw;
-  }
-}
 .body-sobrenosotros {
   background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
@@ -1544,12 +1514,12 @@ footer a {
 }
 
 .sobrenosotros-volver p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .ir-contacto {
   font-family: "Oswald", sans-serif;
-  font-size: 19px;
+  font-size: 20px;
   margin-top: -46px;
   margin-right: 2px;
 }
@@ -1580,8 +1550,7 @@ footer a {
 .logo-cheepers {
   display: flex;
   margin-left: auto;
-  margin-right: 2px;
-  margin-top: -130px;
+  margin-top: -125px;
   height: 140px;
   width: 150px;
 }
@@ -1593,7 +1562,7 @@ footer a {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 550;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   line-height: 1.6;
   text-align: justify;
 }
@@ -1604,22 +1573,35 @@ footer a {
   color: chocolate;
 }
 
-/* sobrenosotros-fin */
-/* contacto */
-.header-contacto {
-  height: 9vw;
-  background-image: url(../multimedia/logotipo.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  border: solid 3px black;
+.contacto-sobrenosotros h2 {
+  font-size: 22px;
+  color: rgb(245, 12, 12);
+  margin-left: 20px;
+  margin-top: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
-@media (max-width: 520px) {
-  .header-contacto {
-    height: 9vw;
-  }
+.contacto-sobrenosotros img {
+  position: relative;
+  top: -5px;
 }
+
+.contacto-sobrenosotros p {
+  display: flex inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  position: relative;
+  top: 9px;
+}
+
+.footer-sobrenosotros {
+  margin-top: 25px;
+}
+
+/* sobrenosotros-fin */
+/* contacto */
 .body-contacto {
   background-image: url(../multimedia/Maderablanca.jpg);
   background-size: cover;
@@ -1628,23 +1610,28 @@ footer a {
 }
 
 .contacto-volver i {
-  font-size: 21px;
   color: black;
+  font-size: 20px;
 }
 
 .contacto-volver p {
-  font-size: 22px;
+  font-size: 20px;
+}
+
+.volver-logo {
+  position: relative;
+  top: -1px;
 }
 
 .ir-inicio {
   font-family: "Oswald", sans-serif;
-  font-size: 21px;
-  margin-top: -49px;
+  font-size: 20px;
+  margin-top: -46px;
   margin-right: 2px;
 }
 
 .ir-inicio-logo {
-  margin-top: -42px;
+  margin-top: -41px;
 }
 
 .contacto-titulos h1 {
@@ -1678,6 +1665,11 @@ footer a {
   color: chocolate;
   font-size: 22px;
   letter-spacing: 1px;
+}
+
+.contacto-medios a {
+  text-decoration: none;
+  color: black;
 }
 
 .gmail {
@@ -1730,6 +1722,58 @@ footer a {
   position: relative;
   top: -35px;
   margin-left: 60px;
+}
+
+.formularios {
+  position: relative;
+  top: -225px;
+  display: flex;
+  margin-left: 70%;
+  padding: 15px;
+  border-radius: 4px;
+  max-width: 350px;
+  background-color: rgb(219, 219, 219);
+  border: solid black 1px;
+  margin-top: -100px;
+}
+.formularios .form-group label {
+  display: block;
+  font-size: 21px;
+  margin-bottom: 5px;
+  font-family: "Oswald", sans-serif;
+}
+.formularios .form-group input {
+  width: 100%;
+  padding: 8px;
+  border: rgb(236, 119, 36) solid 2px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.formularios input[type=submit] {
+  display: block;
+  padding: 8px 12px;
+  margin-top: 10px;
+  background-color: rgb(245, 12, 12);
+  color: white;
+  border: solid black 1px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.formularios .mensaje {
+  display: block;
+  max-height: 120px;
+  border: rgb(236, 119, 36) solid 2px;
+}
+.formularios textarea {
+  font-size: 17px;
+  width: 320px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-contacto {
+  margin-top: -130px;
 }
 
 /*# sourceMappingURL=style.css.map */

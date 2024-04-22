@@ -489,7 +489,7 @@ $font-arial: Arial, Helvetica, sans-serif;
 
   @media(max-width:480px) {
     & {
-      height: 12vw;
+      height: 11vw;
     }
   }
 }
@@ -1352,19 +1352,7 @@ $font-arial: Arial, Helvetica, sans-serif;
 
 /* promos */
 .header-promos {
-  height: 9vw;
-  background-image: $header-cheepers;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  border: $border-black;
-}
-@media(max-width:520px) {
-
-  .header-promos {
-    height: 11vw;
-  }
+@extend .header-catalogo;
 }
 .body-promos {
   background-image: $fondo-blanco;
@@ -1618,23 +1606,9 @@ top: 100px;
 /* promo-fin */
 
 /* Sobre nosotros */
-
 .header-sobrenosotros {
-  height: 9vw;
-  background-image: $header-cheepers;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-position: center;
-  border: $border-black;
+@extend .header-catalogo;
 }
-@media(max-width:520px) {
-
-  .header-sobrenosotros {
-    height: 10vw;
-  }
-}
-
 
 .body-sobrenosotros {
   background-image: $fondo-blanco;
@@ -1649,12 +1623,12 @@ top: 100px;
 }
 
 .sobrenosotros-volver p {
-  font-size: 19px;
+  font-size: 20px;
 }
 
 .ir-contacto {
   font-family: $font-oswald;
-  font-size: 19px;
+  font-size: 20px;
   margin-top: -46px;
   margin-right: 2px;
 }
@@ -1666,14 +1640,12 @@ top: 100px;
 .sobrenosotros-titulo {
   display: flex;
   flex-direction: column;
-
 }
 
 .sobrenosotros-titulo h1 {
   margin-left: 90px;
   font-family: $font-oswald;
   font-size: 45px;
-
 }
 
 .sobrenosotros-titulo h2 {
@@ -1682,14 +1654,12 @@ top: 100px;
   font-family: $font-arial;
   font-weight: 600;
   color: chocolate;
-
 }
 
 .logo-cheepers {
   display: flex;
   margin-left: auto;
-  margin-right: 2px;
-  margin-top: -130px;
+  margin-top: -125px;
   height: 140px;
   width: 150px;
 }
@@ -1701,7 +1671,7 @@ top: 100px;
   font-family: $font-arial;
   font-weight: 550;
   letter-spacing: 1px;
-  margin-top: 10px;
+  margin-top: 5px;
   line-height: 1.6;
   text-align: justify;
 }
@@ -1711,25 +1681,35 @@ top: 100px;
   font-size: 28px;
   color: chocolate;
 }
-
+.contacto-sobrenosotros h2{
+  font-size: 22px;
+  color: $color-red;
+  margin-left: 20px;
+  margin-top:48px;
+  font-family: $font-arial;
+  font-weight: 600
+}
+.contacto-sobrenosotros img{
+  position: relative;
+  top: -5px;
+}
+.contacto-sobrenosotros p{
+display:flex inline;
+font-family: $font-arial;
+font-size: 19px;
+font-weight: 600;
+position: relative;
+top: 9px;
+}
+.footer-sobrenosotros{
+  margin-top: 25px;
+}
 /* sobrenosotros-fin */
-
 
 /* contacto */
 .header-contacto {
-  height: 9vw;
-  background-image: $header-cheepers;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  border: solid 3px black;
+  @extend .header-catalogo;
   }
-  @media(max-width:520px) {
-    .header-contacto {
-      height: 9vw;
-    }
-  }
-
 
 .body-contacto {
   background-image: $fondo-blanco;
@@ -1739,24 +1719,26 @@ top: 100px;
 }
 
 .contacto-volver i {
-  font-size: 21px;
   color: black;
+  font-size: 20px;
 }
 
 .contacto-volver p {
-  font-size: 22px;
+  font-size: 20px;
 }
-
-.ir-inicio {
+.volver-logo{
+position: relative;
+top: -1px;
+}
+.ir-inicio{
   font-family: $font-oswald;
-  font-size: 21px;
-  margin-top: -49px;
+  font-size: 20px;
+  margin-top: -46px;
   margin-right: 2px;
-
 }
 
 .ir-inicio-logo {
-  margin-top: -42px;
+  margin-top: -41px;
 }
 
 .contacto-titulos h1 {
@@ -1790,6 +1772,10 @@ top: 100px;
   color: chocolate;
   font-size: 22px;
   letter-spacing: 1px;
+}
+.contacto-medios a{
+  text-decoration: none;
+  color:black
 }
 
 .gmail {
@@ -1843,3 +1829,59 @@ top: 100px;
   top: -35px;
   margin-left: 60px;
 }
+
+.formularios {
+  position: relative;
+  top: -225px;
+  display: flex;
+ margin-left: 70%;
+  padding: 15px;
+  border-radius: 4px;
+  max-width: 350px;
+  background-color: rgb(219, 219, 219);
+  border: solid black 1px;
+margin-top:  -100px;
+  .form-group label {
+    display: block;
+    font-size: 21px;
+    margin-bottom: 5px;
+    font-family: $font-oswald;
+  }
+  
+  .form-group input {
+    width:100%;
+    padding: 8px;
+    border: $border-color;
+    border-radius: 4px;
+    font-size: 18px;
+  font-family: $font-arial;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    padding: 8px 12px;
+    margin-top: 10px;
+    background-color: $color-red;
+    color: white;
+    border:solid black 1px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .mensaje{
+  display: block;
+  max-height: 120px;
+  border: $border-color;
+  }
+  textarea{
+    font-size: 17px;
+    width: 320px;
+    font-family: $font-arial;
+  }
+}
+
+.footer-contacto{
+margin-top: -130px;
+
+}
+
