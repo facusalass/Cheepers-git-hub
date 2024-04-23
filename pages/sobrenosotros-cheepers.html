@@ -16,7 +16,7 @@
     <!-- Bootstrap fin -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f431e4a68.js" crossorigin="anonymous"></script>
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 
 </head>
@@ -27,7 +27,7 @@
     <header class="header-sobrenosotros">
     </header>
     <main>
-    <section class="sobrenosotros">
+    <section class="sobrenosotros"  data-aos="fade-up"data-aos-duration="1000">
         <article>
             <div class="sobrenosotros-volver">
                 <a href="./promos-cheepers.html" class="volver-logo"> <i class="fa-solid fa-angles-left"></i></a>
@@ -113,7 +113,10 @@
             <!-- Copyright -->
         </footer>
     </section>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
