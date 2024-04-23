@@ -1423,10 +1423,12 @@ $font-arial: Arial, Helvetica, sans-serif;
 @media(max-width:450px) {
   .promos-titulos h2 {
     font-size: 20px;
+    margin-left: 32px;
   }
 
   .promos-titulos h1 {
     font-size: 35px;
+    margin-right: 10px;
   }
 }
 
@@ -1677,8 +1679,6 @@ top: 100px;
     text-align: justify;
   }
   
-
-
 .cheepers-nombre h2 {
   margin-left: 20px;
   font-size: 28px;
@@ -1733,13 +1733,13 @@ text-align: center;
 font-size:27px ;
 margin-right: 75px;
   }
-  
   .sobrenosotros-titulo h2 {
     margin-left: 30px;
     font-size: 19px;
    text-align: center;
    margin-right: 18px;
   }
+  
   .cheepers-nombre h2 {
    margin-left: 18px;
     font-size: 22px;
@@ -1751,18 +1751,18 @@ margin-top:30px;
  font-size: 17px;
  margin-right: 22px;
  margin-top: 25px;
-  }
-  .contacto-sobrenosotros img{
-   width: 30px;
-   height: 20px;
-   position: relative;
-   top: -10px;
+ .contacto-sobrenosotros img{
+  width: 30px;
+  height: 20px;
+  position: relative;
+  top: -10px;
+ }
   }
   .contacto-sobrenosotros p{
-  font-size: 15px;
-  position: relative;
-  top: 2px;
-  }
+    font-size: 15px;
+    position: relative;
+    top: 4px;
+    }
 }
 /* sobrenosotros-fin */
 
@@ -1823,11 +1823,8 @@ top: -1px;
 
 .contacto-medios {
   margin-top: 40px;
-  margin-left: 15px;
-  font-family: $font-arial;
-  font-weight: 550;
-  color: chocolate;
-  font-size: 22px;
+ @extend .contacto-parrafo;
+ color: chocolate;
   letter-spacing: 1px;
 }
 .contacto-medios a{
@@ -1904,7 +1901,7 @@ margin-top:  -100px;
     margin-bottom: 5px;
     font-family: $font-oswald;
   }
-  
+
   .form-group input {
     width:100%;
     padding: 8px;
@@ -1927,7 +1924,6 @@ margin-top:  -100px;
   }
   .mensaje{
   display: block;
-  max-height: 120px;
   border: $border-color;
   }
   textarea{
@@ -1937,8 +1933,221 @@ margin-top:  -100px;
   }
 }
 
+@media(min-width:1200px){
+  .mensaje{
+    max-height: 120px;
+    }
+    .footer-contacto{
+      margin-top: -130px;
+      }
+}
+
+@media (max-width:1030px){
+  .formularios{
+    max-height: 320px;}
+    .mensaje{
+      height: 50px;
+      }
+    
+  }
+
+@media (max-width:1200px){
+.formularios{
+  position: relative;
+  right: 40px;
+  max-width: 320px;
+  .form-group input {
+    width:100%;
+  max-width: 280px;
+
+  }
+  textarea{
+    width: 280px;
+  }
+}
 .footer-contacto{
-margin-top: -130px;
+  margin-top: -120px;
+  }
 
 }
+@media(max-width:1000px){
+  .contacto-titulos h1 {
+    font-family: $font-oswald;
+ text-align: center;
+ margin-right: 80px;
+  }
+  
+  .contacto-titulos h2 {
+   text-align: center;
+   margin-right: 15px;
+  }
+  
+  .contacto-parrafo {
+  text-align: center;
+    letter-spacing: 1.5px;
+  }
+  
+
+  .contacto-medios a{
+    text-decoration: none;
+    color:black
+  }
+  
+  .flexbox{
+ display: block;
+ justify-content: space-around;
+  }
+  .contacto-medios {
+    margin-top: 20px;
+
+   color: chocolate;
+    letter-spacing: 2px;
+  }
+  .footer-contacto{
+    margin-top: -20px;
+    }
+  .instagram{
+  margin: 0 auto;
+  position:relative;
+  right: 230px;
+  top: 25px;
+  }
+  .instagram-p{
+    position: relative;
+    top: -10px;
+    right: 180px;
+  }
+  .facebook{
+    margin: 0 auto;
+    position:relative;
+    right: 232px;
+    top: 15px
+  }
+  .facebook-p{
+    position: relative;
+    top: -20px;
+    right: 183px
+  }
+  .gmail{
+    position: relative;
+right: 115px;
+  }
+  .gmail-p{
+    right: 112px;
+  }
+    .formularios {
+      position: relative;
+      top: -90px;
+      right: 95px;
+   background-color: rgba(162, 162, 165, 0);
+  border: none;
+      .form-group label {
+        display: block;
+        font-size: 18px;
+        max-width: 210px;
+        height: 70px;
+      }
+      .form-group input {
+        width:100%;
+      }
+      
+      input[type="submit"] {
+margin-top: 25px;
+        font-size: 13px;
+      }
+  
+      textarea{
+        font-size: 17px;
+        width: 210px;
+        height: 65px;
+        font-family: $font-arial;
+      }
+    }
+  
+}
+@media (max-width:650px){
+  .contacto-titulos h1{
+    font-size: 40px;
+  }
+  .contacto-titulos h2 {
+    margin-right: 25px;
+    font-size: 22px;
+   }
+   .contacto-parrafo {
+    font-size: 19px;
+    text-align: center;
+      letter-spacing: 1.5px;
+    }
+    .instagram{
+      position:relative;
+      right: 143px;
+      top: 22px;
+      }
+      .instagram-p{
+        position: relative;
+        top: -12;
+        right: 104px;
+        font-size: 14px;
+      }
+      .facebook{
+
+        position:relative;
+        right:144px;
+        top: 10px
+      }
+      .facebook-p{
+        position: relative;
+        top: -23px;
+        right:105px;
+        font-size: 14px;
+      }
+      .gmail{
+        position: relative;
+left: -55px;
+      }
+      .gmail-p{
+        right: 55px;
+        font-size: 14px;
+      }
+      .formularios {
+        position:relative;
+        top: 95px;
+        justify-content: center;
+        right:  175px;
+    height:150px;
+        .form-group label {
+          max-width: 180px;
+          height: 70px;
+        }
+        .form-group input {
+          width:100%;
+        }
+        
+        input[type="submit"] {
+          font-size: 13px;
+        }
+    
+        textarea{
+          font-size: 17px;
+          width: 180px;
+          height: 65px;
+        }
+      }
+      .footer-contacto{
+        margin-top: 290px;
+        }
+}
+@media(max-width:336px){
+  .contacto-titulos h1{
+  position: relative;
+  right: 10px;
+  }
+  .contacto-parrafo {
+    margin-left: 0px;
+    text-align: center;
+    
+    }
+}
+
+
 
