@@ -628,6 +628,7 @@ footer a {
     font-weight: 650;
     border: solid black 3px;
     background-color: yellow;
+    text-align: center;
   }
   .americana-infos {
     margin-top: 45px;
@@ -929,7 +930,7 @@ footer a {
     margin-top: 15px;
     height: 30px;
     width: 35px;
-    margin-left: -88px;
+    margin-left: -87px;
   }
   .facebook-boton {
     position: relative;
@@ -1299,7 +1300,7 @@ footer a {
 }
 
 .promociones h2 {
-  padding-left: 72px;
+  padding-left: 71px;
   margin-top: -7px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -1322,7 +1323,7 @@ footer a {
   }
   .promos-titulos h1 {
     font-size: 35px;
-    margin-right: 10px;
+    margin-right: 14px;
   }
 }
 .promociones {
@@ -1468,7 +1469,7 @@ footer a {
     font-size: 24px;
     font-weight: 750;
     position: relative;
-    right: 25px;
+    right: 32px;
     top: -35px;
   }
   .contactos-promo span {

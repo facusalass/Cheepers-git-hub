@@ -718,6 +718,7 @@ $font-arial: Arial, Helvetica, sans-serif;
     position: relative;
     left: 65px;
     @include botones;
+    text-align: center;
   }
 
   .americana-infos {
@@ -1043,7 +1044,7 @@ $font-arial: Arial, Helvetica, sans-serif;
     margin-top: 15px;
     height: 30px;
     width: 35px;
-    margin-left: -88px;
+    margin-left: -87px;
   }
 
   .facebook-boton {
@@ -1415,7 +1416,7 @@ $font-arial: Arial, Helvetica, sans-serif;
 }
 
 .promociones h2 {
-  padding-left: 72px;
+  padding-left: 71px;
   margin-top: -7px;
   font-family: $font-arial;
 }
@@ -1441,8 +1442,9 @@ $font-arial: Arial, Helvetica, sans-serif;
 
   .promos-titulos h1 {
     font-size: 35px;
-    margin-right: 10px;
+    margin-right: 14px;
   }
+ 
 }
 
 .promociones {
@@ -1573,7 +1575,7 @@ top: 40px;
     font-size: 24px;
     font-weight: 750;
     position: relative;
-    right: 25px;
+    right: 32px;
     top: -35px;
   }
 .contactos-promo span{
