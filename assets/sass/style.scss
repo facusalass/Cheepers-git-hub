@@ -585,11 +585,15 @@ $font-arial: Arial, Helvetica, sans-serif;
   .catalogo-titulos h2 {
     font-size: 21px;
     font-family: $font-arial;
+    position: relative;
+    right: 15px;
   }
 
   .catalogo-titulos h1 {
     font-size: 36px;
     font-family: $font-oswald;
+    position: relative;
+    right: 8px;
   }
   .burguers h2{
   font-size: 25px;
@@ -601,15 +605,24 @@ $font-arial: Arial, Helvetica, sans-serif;
   .catalogo-titulos h2 {
     font-size: 20px;
     font-family: $font-arial;
+    position: relative;
+    right: 18px;
   }
 
   .catalogo-titulos h1 {
     font-size: 35px;
     font-family: $font-oswald;
     position: relative;
-    right: 10px;
+    right: 19px;
   }
-
+}
+@media(max-width:340px){
+  .catalogo-titulos h2 {
+  right: 22px;
+  }
+  .catalogo-titulos h1{
+    right: 30px;
+  }
 }
 
 @mixin botones {
@@ -1030,13 +1043,13 @@ $font-arial: Arial, Helvetica, sans-serif;
     margin-top: 15px;
     height: 30px;
     width: 35px;
-    margin-left: -87px;
+    margin-left: -88px;
   }
 
   .facebook-boton {
     position: relative;
     top: 10px;
-    margin-left: 3px;
+    margin-left: 2px;
     display: inline;
     font-size: 16px;
     font-weight: 600;
@@ -1195,7 +1208,7 @@ $font-arial: Arial, Helvetica, sans-serif;
     margin-top: -10px;
     height: 40px;
     width: 40px;
-    margin-left: 12px;
+    margin-left: 13px;
 
   }
 
@@ -2126,7 +2139,7 @@ margin-top: 25px;
       }
       .gmail{
         position: relative;
-left: -61px;
+left: -62px;
 top: 3px;
       }
       .gmail-p{
